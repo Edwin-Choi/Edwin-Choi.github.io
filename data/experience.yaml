@@ -1,0 +1,56 @@
+# ============================================================
+#  EXPERIENCE — each list item below becomes one timeline entry.
+#
+#  To add a role: copy an entire "- title:" block, paste it above
+#  the others (most recent first), and fill in the fields.
+#  The order here is the order shown on the page (top = most recent).
+#
+#  FIELDS
+#    title        required  job title
+#    company      required  company name
+#    location     optional  city / country — shown after the company
+#    start        required  tenure start, format "<Month> <Year>" (e.g. "Jan 2024")
+#    end          required  tenure end; use "Present" for a current role
+#    description  required  bullet points — one line each, lead with impact
+# ============================================================
+
+experience:
+  - title: Senior Forward Deploy Engineer - Applied AI
+    company: V2 AI - Technology
+    location: Sydney, Australia
+    start: Mar 2026
+    end: Present
+    description:
+      - Take customer AI from prototype to production as a senior full-stack engineer, shipping systems teams rely on day to day.
+      - Deliver end to end, from database and backend to the UI customers actually use, owning the infrastructure that keeps deployed AI reliable and observable.
+      - Turn proofs of concept into dependable production software, closing the gap where most AI work stalls.
+
+  - title: Senior Software Engineer
+    company: Deloitte Touche Tohmatsu - Systems Engineering
+    location: Sydney, Australia
+    start: Jul 2025
+    end: Feb 2026
+    description:
+      - Took a Disruption logic engine from scratch to its first production go-live as integration tech lead, a Kafka microservices backend on AWS, shipped with zero rollback.
+      - Delivered Phase 2 with a team of four, giving the business faster, more dependable data provisioning across daily operations.
+      - Proved out an internal AI Smart Search tool on AWS and Amazon Bedrock, giving the firm a working path to AI-powered search.
+
+  - title: Software Engineer
+    company: Deloitte Touche Tohmatsu - Integration Engineering
+    location: Sydney, Australia
+    start: Jul 2023
+    end: Jun 2024
+    description:
+      - Automated manual curriculum workflows through a multi-release Curriculum Management System integration, cutting hands-on effort for the client.
+      - Became the go-to contact for triaging major production incidents across domain APIs, cutting resolution times and keeping critical services available.
+      - Recognised by the client with an award as integration tech lead, and doubled the team's MuleSoft-certified engineers (20+) through in-house sessions.
+
+  - title: Software Engineer Analyst
+    company: Deloitte Touche Tohmatsu - Platform Engineering
+    location: Sydney, Australia
+    start: Mar 2022
+    end: Jun 2023
+    description:
+      - Cut regression testing time by 90% with automated integration and database test suites in Karate, freeing the team to release faster.
+      - Built Splunk dashboards and alerting across the enrollment domain (10+ APIs), catching issues before they escalated.
+      - Delivered the full integration for a newly onboarded domain solo, after ramping across three business domains in 15 months.

@@ -1,0 +1,36 @@
+# ============================================================
+#  PROJECTS — each list item below becomes one project card.
+#
+#  To add a project: copy an entire "- id:" block, paste it,
+#  and fill in the fields. To remove one: delete its block.
+#  The order here is the order they appear on the page.
+#
+#  FIELDS
+#    id        required  unique slug, used as a stable key
+#    title     required  card heading
+#    summary   required  1–2 sentences; lead with the outcome
+#    status    optional  small label shown top-right (e.g. "WIP", "Live", "Template")
+#    tags      optional  tech chips, rendered left-to-right
+#    links     optional  list of { label, url } — e.g. code / live / writeup
+#    featured  optional  true pins it to the front (featured render first)
+# ============================================================
+
+projects:
+  - id: placeholder-project
+    title: Project Title
+    status: Template
+    featured: true
+    summary: >
+      This is a placeholder card driven entirely by data/projects.yaml. Copy this
+      block to add a real project. Lead with the outcome ("cut p99 latency 40%"),
+      then name the interesting technical decision behind it.
+    tags:
+      - Java
+      - Spring Boot
+      - Kafka
+      - GCP
+    links:
+      - label: code
+        url: https://github.com/Edwin-Choi
+      - label: writeup
+        url: "#"

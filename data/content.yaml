@@ -1,0 +1,85 @@
+# ============================================================
+#  SITE CONTENT — edit this file to change any text on the site.
+#  No code changes needed. After editing, the GitHub Action
+#  rebuilds and redeploys automatically on push.
+# ============================================================
+
+profile:
+  name: Edwin Choi
+  brand: edwin-choi          # shown in the top-left nav as edwin-choi.dev
+  role: Senior Forward Deployed Engineer
+  location: Sydney, Australia
+  tagline_lead: Building software that is
+  tagline_accent: reliable by design.   # this phrase renders in the accent colour
+  intro: >
+    I'm Edwin Choi, a full-stack engineer with a focus on distributed systems. I care about ease of life, end to end lazy solutions for convenience and automation for efficiency.
+    With that, comes clean, scalable architecture, performance I can actually measure, and code the next person can read, from the database to the browser.
+  socials:
+    - label: github
+      url: https://github.com/Edwin-Choi
+    - label: linkedin
+      url: https://linkedin.com/in/edwinpschoi
+
+about:
+  paragraphs:
+    - >
+      I spent five years building backend services, developer tooling, and a fair
+      amount of automation and integration work, the kind of systems teams quietly
+      depend on. As a Senior Forward Deployed Engineer at V2 AI, I now work
+      full-stack, carrying features from database and infrastructure all the way to
+      the interface a customer actually touches.
+    - >
+      The problems I like best sit somewhere between correctness and elegance, ones
+      where one careful design decision saves a team months of pain later, and the
+      solution is intuitive. Lately that focus is applied AI: getting models out of
+      the notebook and into production systems that are dependable and properly
+      instrumented, then owning the full stack, backend, infrastructure, and UI,
+      that keeps them running.
+  facts:
+    - label: Currently
+      value: Senior Forward Deploy Engineer @ V2 AI
+    - label: Focus
+      value: Applied AI, full-stack delivery, backend & infrastructure
+    - label: Location
+      value: Sydney, Australia
+    - label: Open to
+      value: Interesting problems & collaboration
+
+# ----- SKILLS -----
+# Ordered lists render top-to-bottom in the order written here.
+skills:
+  - heading: Languages
+    items:
+      - Java
+      - Python
+      - TypeScript / JavaScript
+      - Go
+      - Rust
+      - SQL
+  - heading: Frameworks & Platforms
+    items:
+      - Java / Spring Boot
+      - React / Next.js
+      - Node.js / FastAPI
+      - Kafka
+      - PostgreSQL / Redis
+      - GCP / AWS / Docker / Kubernetes
+  - heading: Practices
+    items:
+      - Applied AI implementation
+      - System design & architecture
+      - CI/CD & test automation
+      - Observability & performance
+      - Code review & mentoring
+
+# NOTE: Experience now lives in its own file — data/experience.yaml
+
+contact:
+  heading: Let's talk
+  # Create a free form at https://formspree.io and paste its endpoint below to show
+  # a contact form. It looks like https://formspree.io/f/abcdwxyz. The form posts
+  # straight to Formspree, so your email address never appears on the page.
+  # Leave this blank (form_action: "") and the form is hidden — only the links below show.
+  form_action: ""
+  body: >
+    A lead, a project, or just a good technical conversation: my inbox is open.
