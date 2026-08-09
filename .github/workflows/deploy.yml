@@ -1,6 +1,5 @@
 # Builds the Next.js static export and publishes ./out to GitHub Pages.
-# Runs when you publish a GitHub Release (merges to main do NOT deploy).
-# You can also trigger a deploy manually from the Actions tab.
+# Runs on every push to main. You can also trigger a deploy manually from the Actions tab.
 #
 #   ONE-TIME SETUP (in your repo on github.com):
 #   Settings -> Pages -> "Build and deployment" -> Source: "GitHub Actions"
@@ -8,8 +7,8 @@
 name: Deploy to GitHub Pages
 
 on:
-  release:
-    types: [published] # deploys only when you publish a GitHub Release, not on every merge to main
+  push:
+    branches: [main]
   workflow_dispatch: {} # lets you trigger a deploy manually from the Actions tab
 
 # Permissions the deploy needs.

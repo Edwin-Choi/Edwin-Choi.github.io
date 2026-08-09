@@ -7,7 +7,7 @@
 profile:
   name: Edwin Choi
   brand: edwin-choi          # shown in the top-left nav as edwin-choi.dev
-  role: Senior Forward Deployed Engineer
+  role: Software Engineer
   location: Sydney, Australia
   tagline_lead: Building software that is
   tagline_accent: reliable by design.   # this phrase renders in the accent colour
